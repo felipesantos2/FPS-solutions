@@ -51,4 +51,60 @@ body {
 .row {
      
     padding: 0 20px;
+    display: table;
+}
+
+.row main {
+    float: left;
+    width: 75%;
+}
+.row h2, h5 {
+    margin-bottom: 20px;
+   
+}
+
+.row p {
+    margin: 10px 0;
+   
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(21, 04, 98);
+    margin-top: 20px;
+    color: white;
+    display: table;
+    width: 100%;
+}
+
+footer dt {
+    font-weight:  bold;
+}
+
+footer dd {
+    margin-bottom: 10px;
+}
+
+footer p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer dl, footer p {
+   display: table-cell;
+   vertical-align: middle;
 }
