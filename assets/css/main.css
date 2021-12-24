@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+/* Fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    background: #f8efed;
+    
+}
+
+#logo-cabecalho {
+    text-align: center;
+    background-color: #ffc755;
+    padding: 30px;
+
+}
+
+#logo-cabecalho h1{
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.navbar-container  {
+
+    background-color: #172645;
+   
+}
+
+.navbar-container a {
+    padding: 22px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar-container a:hover {
+    background-color: white;
+    color: rgb(21, 04,98);
+  
+}
+
+.row {
+     
+    padding: 0 20px;
+}
