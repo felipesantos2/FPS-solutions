@@ -108,3 +108,14 @@ footer dl, footer p {
    display: table-cell;
    vertical-align: middle;
 }
+
+/* Pagina quem somos */
+
+  #sobre h2 {
+        font-family: 'Roboto',sans-serif;
+
+  }
+
+  #sobre p {
+        font-family: 'Roboto',sans-serif;
+  }
