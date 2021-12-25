@@ -111,12 +111,40 @@ footer dl, footer p {
 
 /* Pagina quem somos */
 
+#sobre{
+
+    display: flex;
+  
+}
+
   #sobre h2 {
         font-family: 'Roboto',sans-serif;
         
 
-  }
+  }      
 
   #sobre p {
         font-family: 'Roboto',sans-serif;
-  }
+  }     
+
+#card-quem {
+    margin-left: 10px;
+
+}
+
+#card-quem a {
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color:gold;
+    border-radius: 50%;
+    border:1px solid black
+}
+
+#card-quem a:hover {
+    opacity: 0.7;
+}
