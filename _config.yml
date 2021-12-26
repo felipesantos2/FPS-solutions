@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+layout: page
+title: "Quem somos"
+permalink: /subpaginas/quem.html/
