@@ -1,0 +1,7 @@
+#card {
+    background-image: url(../natal/fundo_card.jpg);
+    background-size: cover;
+    margin: 50px;
+    width: 80%;
+    height: 100%;
+}
